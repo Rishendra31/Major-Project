@@ -1,0 +1,21 @@
+path setting in completetely incorrect in ur system  so to chnage i am unable to access environment variable so i added path in bat file only
+
+now running
+
+how about student laptop sir. i need to give the same code. or should i change it in environment variables
+
+just add two path sin environment variables under system tab by selecting path option
+
+java 
+
+C:\Program Files\Java\jdk1.8.0_121\bin
+
+cygwin
+
+C:/cygwin64/bin
+
+thats it
+
+but it should be under system variable not uservariable that is top panel
+
+Done sir.. Understood

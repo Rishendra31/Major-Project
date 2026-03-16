@@ -1,0 +1,40 @@
+Large language models should be introduced before NLP
+
+word level , synonym level sentments were perfectly understood by LLMs
+
+BOW, TF IDF feature extractors in NLP    feature extractor playe key roel in NLP not ML             HuBert = for audio, VIT = for images
+
+
+understands typo mistakes and error wrods   overall it can create a sentence--> LLM                  Paraphrase Sbert, QA Sbert, Sentencce similarity Sbert, light weight sbert, RobertA
+
+TO meet all these requirements LLMs will implemenet perfect feature extractions                      Distilled bert, Convex bert, 
+
+FEATURE EXTRACTION
+                                                                                                     Mini LLMs(advancement of Bert)
+Converting into a numerical format
+
+ex: Label encoding for basic understandoing but only correct for words not sentences....no of words increases complexity increases and will never extract relation between 2 different columns...
+
+Advanced level feature extreactions----> TF-IDF, BOW, engrams, GLOVe, fast text embeddings, word embeddings------>these extractors cannot resolve the word errors, synonym level sentiments
+
+TO overcome this problem we use pre trained language models like GPT....Real time all the transformers are LLMs...
+
+Bert is also another example...BI directional encoder representators from encoded transformers
+
+Major feature of bert is 1st input is major input in this...
+
+if input is txt
+secondary input--> what the user expecting 
+TTA, TTI
+
+in every transformers there are 2 operational blocks---> Encoder, Decoder----> Related to CNN and RNN
+
+encoder takes primary or major input...and we tell how much depth it should study ...this is called patch embeddings.......feature extractor
+
+decoder takes the analyzed features and decode them as per secondary input.....
+
+TABNET is one type of transformer
+
+DNN here plays a role for feature selection where as bert extracts the features and gives to DNN
+
+we use majorly BERT WITH DNN
